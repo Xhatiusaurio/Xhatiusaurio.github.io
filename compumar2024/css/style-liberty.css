@@ -4613,11 +4613,20 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
-  display: flex;
+  display: block ruby;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem 1rem;
+}
+
+.menucenter {
+  align-content: center !important;
+  margin-left: 15% !important;
+  width: 70% !important;
+}
+.textoazul {
+  color: #27ace3;
 }
 
 .navbar .container,
@@ -11197,6 +11206,10 @@ p.white {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.logocm {
+  width: 80%;
 }
 
 @media (min-width: 992px) {
