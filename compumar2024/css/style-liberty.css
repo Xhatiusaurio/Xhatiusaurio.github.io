@@ -18626,6 +18626,12 @@ button.search-btn:hover {
   width: 100%;
   min-height: 100vh;
 }
+.slider-container-accesorios {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 50vh;
+}
 
 .left-slide {
   height: 100%;
@@ -18669,6 +18675,58 @@ button.search-btn:hover {
   font-weight: 300;
 }
 
+
+.left-slide-accesorios {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+  display: none;
+}
+
+.left-slide-accesorios>div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 3em;
+}
+
+.left-slide-accesorios h3 {
+  font-size: 45px;
+  line-height: 55px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.left-slide-accesorios h4 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.left-slide-accesorios p {
+  color: #eee;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
 .right-slide {
   height: 100%;
   position: absolute;
@@ -18679,6 +18737,23 @@ button.search-btn:hover {
 }
 
 .right-slide>div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+.right-slide-accesorios {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.right-slide-accesorios>div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -18710,7 +18785,14 @@ button.search-btn:hover {
   font-size: 16px;
   padding: 15px;
 }
-
+.slider-container-accesorios button {
+  background-color: #fff;
+  border: none;
+  color: rgb(39, 172, 227);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
 .slider-container button:hover {
   color: #222;
 }
@@ -18721,7 +18803,7 @@ button.search-btn:hover {
 
 .slider-container .action-buttons button {
   position: absolute;
-  left: 35%;
+  left: 50%;
   top: 50%;
 }
 
@@ -18737,8 +18819,44 @@ button.search-btn:hover {
   border-bottom-right-radius: 5px;
 }
 
+
+
+
+.slider-container-accesorios button:hover {
+  color: #222;
+}
+
+.slider-container-accesorios button:focus {
+  outline: none;
+}
+
+.slider-container-accesorios .action-buttons-accesorios button {
+  position: absolute;
+  left: 75%;
+  top: 50%;
+}
+
+.slider-container-accesorios .action-buttons-accesorios .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  z-index: 999;
+}
+
+.slider-container-accesorios .action-buttons-accesorios .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 999;
+}
+
 @media only screen and (max-width: 1350px) {
   .left-slide h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .left-slide-accesorios h3 {
     font-size: 40px;
     line-height: 50px;
   }
@@ -18754,6 +18872,16 @@ button.search-btn:hover {
     font-size: 18px;
     line-height: 28px;
   }
+
+  .left-slide-accesorios h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .left-slide-accesorios h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -18766,11 +18894,24 @@ button.search-btn:hover {
     font-size: 15px;
     line-height: 25px;
   }
+  .left-slide-accesorios h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .left-slide-accesorios h4 {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .slider-container .action-buttons button {
     left: 45%;
+  }
+
+  .slider-container-accesorios .action-buttons-accesorios button {
+    left: 75%;
   }
 
   .left-slide {
@@ -18780,13 +18921,23 @@ button.search-btn:hover {
   .right-slide {
     width: 55%;
   }
-
+  .right-slide-accesorios {
+    width: 100%;
+  }
   .left-slide>div {
+    padding: 2em;
+  }
+  .left-slide-accesorios>div {
     padding: 2em;
   }
 
   .slider-container button {
     font-size: 12px;
+    padding: 10px;
+  }
+
+  .slider-container-accesorios button {
+    font-size: 20px;
     padding: 10px;
   }
 }
@@ -18796,15 +18947,27 @@ button.search-btn:hover {
     left: 50%;
   }
 
+  .slider-container-accesorios .action-buttons-accesorios button {
+    left: 85%;
+  }
+
   .left-slide {
     width: 50%;
   }
-
+  .left-slide-accesorios {
+    width: 50%;
+  }
   .right-slide {
     width: 50%;
   }
-
+  .right-slide-accesorios {
+    width: 100%;
+  }
   .left-slide>div {
+    padding: 1em;
+  }
+
+  .left-slide-accesorios>div {
     padding: 1em;
   }
 }
@@ -18814,11 +18977,21 @@ button.search-btn:hover {
     width: 50%;
   }
 
-  .right-slide {
+  .left-slide-accesorios {
     width: 50%;
   }
 
+  .right-slide {
+    width: 50%;
+  }
+  .right-slide-accesorios {
+    width: 100%;
+  }
   .slider-container .action-buttons button {
+    top: 90%;
+    left: 11%;
+  }
+  .slider-container-accesorios .action-buttons-accesorios button {
     top: 90%;
     left: 11%;
   }
@@ -20216,7 +20389,7 @@ ul.list-about-2 li {
 }
 
 .list-about-2 i {
-  color: var(--primary-color);
+  color: #27ace3;
 }
 
 .about-content h5 {
