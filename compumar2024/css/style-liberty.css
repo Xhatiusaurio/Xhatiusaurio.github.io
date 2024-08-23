@@ -580,7 +580,9 @@ mark,
   height: auto;
   border-radius: var(--border-radius);
 }
-
+.centrarimagenpad {
+  padding-left: 25%;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4628,6 +4630,18 @@ input[type="button"].btn-block {
 .textoazul {
   color: #27ace3;
 }
+.textoleft {
+text-align: end;
+}
+.textobold {
+  color: #000 !important;
+}
+.textocenter {
+  text-align: center;
+}
+
+
+
 
 .navbar .container,
 .navbar .container-fluid,
@@ -10075,7 +10089,13 @@ button.bg-dark:focus {
   .py-lg-5 {
     padding-top: 3rem !important;
   }
-
+  .descriptiongl {
+    max-width: 100%;
+    width: 100%;
+  }
+  .imagengasligth {
+    margin-left: 25% !important;
+  }
   .pr-lg-5,
   .px-lg-5 {
     padding-right: 3rem !important;
@@ -18630,7 +18650,7 @@ button.search-btn:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 50vh;
+  min-height: 80vh;
 }
 
 .left-slide {
