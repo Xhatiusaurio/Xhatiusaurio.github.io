@@ -4625,7 +4625,7 @@ input[type="button"].btn-block {
 .menucenter {
   align-content: center !important;
   margin-left: 15% !important;
-  width: 70% !important;
+  width: 50% !important;
 }
 .textoazul {
   color: #27ace3;
@@ -4638,6 +4638,10 @@ text-align: end;
 }
 .textocenter {
   text-align: center;
+}
+
+.GLSeccion {
+  margin-left: 45px !important;
 }
 
 
@@ -8645,6 +8649,11 @@ button.bg-dark:focus {
   margin-top: 3rem !important;
 }
 
+.imagengasligth {
+  margin-left: 25% !important;
+  margin-bottom: 30px;
+}
+
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important;
@@ -10095,6 +10104,7 @@ button.bg-dark:focus {
   }
   .imagengasligth {
     margin-left: 25% !important;
+    margin-bottom: 20px;
   }
   .pr-lg-5,
   .px-lg-5 {
@@ -11221,7 +11231,7 @@ p.white {
 
 /*-- container --*/
 .container {
-  width: 100%;
+  width: 90%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -11234,7 +11244,7 @@ p.white {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 950px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -19920,6 +19930,16 @@ p.copy-footer-29 {
   }
 }
 
+.imagengasligth {
+  margin-left: 25% !important;
+  margin-bottom: 30px;
+}
+
+.centrarimagenpad {
+  padding-left: 0%;
+  padding-right: 55px;
+}
+
 @media (max-width: 440px) {
   .footer-list-cont {
     display: block !important;
@@ -19931,6 +19951,11 @@ p.copy-footer-29 {
 
   .footer-list-menu li a {
     font-size: 16px;
+  }
+
+  .GLSeccion {
+    margin-left: 20px !important;
+    padding-right: 5px;
   }
 }
 
