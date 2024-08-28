@@ -4628,7 +4628,7 @@ input[type="button"].btn-block {
   width: 50% !important;
 }
 .textoazul {
-  color: #27ace3;
+  color: #27ace3 !important;
 }
 .textoleft {
 text-align: end;
@@ -19933,6 +19933,9 @@ p.copy-footer-29 {
 .imagengasligth {
   margin-left: 25% !important;
   margin-bottom: 30px;
+}
+.mw75 {
+  max-width: 75% !important;
 }
 
 .centrarimagenpad {
