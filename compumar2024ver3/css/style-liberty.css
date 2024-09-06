@@ -4636,7 +4636,7 @@ input[type="button"].btn-block {
 
 .menucenter {
   align-content: center !important;
-  margin-left: 15% !important;
+  margin-left: 10% !important;
   width: 45% !important;
 }
 .textoazul {
@@ -18415,7 +18415,7 @@ button.search-btn:hover {
   }
 
   .navbar-toggler {
-    padding: 0rem 2rem !important;
+    padding: 0rem 0rem !important;
   }
 
   .navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
