@@ -344,6 +344,18 @@ legend {
   legend {
     font-size: calc(1.275rem + 0.3vw);
   }
+  .padding5rem {
+    padding: 6rem !important;
+}
+.padding5rem2 {
+  padding: opx !important;
+}
+.derechacontent {
+  align-content: end !important;
+  margin-left: 0%;
+  max-width: 100% !important;
+  
+}
 }
 
 progress {
@@ -4625,7 +4637,7 @@ input[type="button"].btn-block {
 .menucenter {
   align-content: center !important;
   margin-left: 15% !important;
-  width: 50% !important;
+  width: 45% !important;
 }
 .textoazul {
   color: #27ace3 !important;
@@ -18403,7 +18415,7 @@ button.search-btn:hover {
   }
 
   .navbar-toggler {
-    padding: 0rem 0rem !important;
+    padding: 0rem 2rem !important;
   }
 
   .navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
@@ -19048,6 +19060,21 @@ h3.title-style {
     font-size: 30px;
     line-height: 40px;
   }
+  .padding5rem {
+    padding: 3rem !important;
+  }
+  .derechacontent {
+    align-content: end !important;
+    margin-left: 0%;
+    max-width: 100% !important;
+    background: #00000091;
+    padding: 5px;
+    border-radius: 20px;
+    color: #fff;
+  }
+  .textoblanco {
+    color: #fff;
+  }
 }
 
 /* gallery section */
@@ -19672,7 +19699,7 @@ section.w3l-progress {
 
 /* call section */
 .w3l-call-to-action-6 {
-  background: #101010;
+  background: #27ace3;
 }
 
 h3.title-big {
@@ -20718,7 +20745,7 @@ h4.text-head-content {
 
 .w3l-content-bg p.text-tag {
   color: #fff;
-  text-transform: uppercase;
+  text-transform: full-size-kana;
   font-size: 15px;
   font-weight: 600;
   line-height: 20px;
